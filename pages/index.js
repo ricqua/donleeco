@@ -24,13 +24,13 @@ export default function Home() {
 
         <p>Link to Don Lee & Co's  
           <span> </span>
-          <a href="https://www.donleecompany.com/home" target="_blank">Website</a>
+          <a href="https://www.donleecompany.com/home" rel="noreferrer">Website</a>
           <span> ,</span>
-          <a href="https://www.linkedin.com/in/coachdonlee/" target="_blank">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/coachdonlee/" rel="noreferrer">LinkedIn</a>
           <span> ,</span>
-          <a href="https://www.instagram.com/coachdonlee" target="_blank">Instagram</a>
+          <a href="https://www.instagram.com/coachdonlee" rel="noreferrer">Instagram</a>
           <span> ,</span>
-          <a href="https://www.facebook.com/donleeco" target="_blank">Facebook</a>
+          <a href="https://www.facebook.com/donleeco" rel="noreferrer">Facebook</a>
           .
         </p>
 
