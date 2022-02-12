@@ -19,7 +19,7 @@ export default function Home() {
         <p>The Korean based online English Language business run by founder Don Lee is a bad company to do business with.  Avoid working for or taking lessons with this academy.</p>
         
         <div className={styles.profileImg}>
-          <Image src="Don Lee profile.png" alt="Girl in a jacket"/>
+          <Image src="Don Lee profile.png" alt="Don Lee profile image" width="416" height="416"/>
         </div>
 
         <p>Link to Don Lee & Co&apos;s  
