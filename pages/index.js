@@ -19,10 +19,10 @@ export default function Home() {
         <p>The Korean based online English Language business run by founder Don Lee is a bad company to do business with.  Avoid working for or taking lessons with this academy.</p>
         
         <div className={styles.profileImg}>
-          <img src="Don Lee profile.png" alt="Girl in a jacket"/>
+          <Image src="Don Lee profile.png" alt="Girl in a jacket"/>
         </div>
 
-        <p>Link to Don Lee & Co's  
+        <p>Link to Don Lee & Co&apos;s  
           <span> </span>
           <a href="https://www.donleecompany.com/home" rel="noreferrer">Website</a>
           <span> ,</span>
@@ -36,7 +36,7 @@ export default function Home() {
 
 
         <h2>Story</h2>
-        <p>My name is Richard (The creator of this site) and I taught as an independent instructor for Don Lee & Co between the end of October 2021 till mid February 2022.  Over these 5 months/payment periods I only received payment once and it wasn’t even a full month's salary.  Don kept promising over phone calls and emails to pay me my outstanding salary but has not done so to date.  </p>
+        <p>My name is Richard (The creator of this site) and I taught as an independent instructor for Don Lee & Co between the end of October 2021 till mid February 2022.  Over these 5 months/payment periods I only received payment once and it wasn’t even a full month&apos;s salary.  Don kept promising over phone calls and emails to pay me my outstanding salary but has not done so to date.  </p>
         <p>I found out from my students, after joining Don Lee & Co, that their previous instructors had quit suddenly because they did not receive payment after lengthy negotiations with Don himself.   I contacted some of these instructors and they confirmed the stories.</p>
 
         <form action="submit" className={styles.complaintForm}>
@@ -49,7 +49,7 @@ export default function Home() {
           <button>Submit complaint</button>
         </form>
 
-        <h2>Live preview of Don Lee & Co's website</h2>
+        <h2>Live preview of Don Lee & Co&apos;s website</h2>
         <div className={styles.livePreviewiFrame}>
           <iframe src="https://www.donleecompany.com/home"  title="Iframe Example"></iframe>
         </div>
