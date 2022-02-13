@@ -47,8 +47,10 @@ export default function Home() {
           </ul>
 
 
-        <h2>Background</h2>
+        <h2>My story</h2>
         <p>My name is Richard (The creator of this site) and I taught as an independent instructor for Don Lee & Co between mid September 2021 till mid February 2022.  Over these 5 months/payment periods I only received payment once and it wasn’t even a full month&apos;s salary.  Don kept promising over phone calls and emails to pay me my outstanding salary but has not done so to date.  </p>
+        
+        <h2>Background</h2>
         <p>Shortly after joining Don Lee & Co one of my students mentioned that their previous instructors and other Don Lee & Co instructors teaching English classes to thier coworkers had quit suddenly because they did not receive payment after lengthy negotiations with Don himself.   I contacted some of these instructors and they confirmed the stories.</p>
         <p>I&apos;ve taught English in Korea for 5-6 years and have never heard or experienced academies not paying teachers so my initial assumption was that the instructors that quit were simply unreasonable staff.  My opinion started to change when I completed my 3rd month and still had not recieved any salary.  Don kept making excuses and the excuses have not stopped.</p>
         <p>At this point I don&apos;t know if Don Lee & Co are scamming people or if they simply suffer from really bad business and finance management.  Either way, the results are the same.</p>
