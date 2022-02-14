@@ -48,6 +48,12 @@ export default function Home() {
             <Image src="/teacher response.png" alt="teacher response image" width="416" height="416"/>
             <span>Message from ex-teacher at Don Lee & Co</span>
           </div>
+
+           <div className={styles.profileImg}>
+            <Image src="/Don Lee Payment Promise.png" alt="Don Lee Payment Promise" width="908" height="765"/>
+            <span>Email from Don promising to pay on 14 February</span>
+          </div>
+          
         </div>
 
         <h2>Links to Don Lee & Co

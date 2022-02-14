@@ -32,19 +32,28 @@
 .images{
   display: flex;
   flex-direction: row;
-  gap: 1rem
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 675px) {
   .images{
-    /* border: 3px solid red; */
     flex-direction: column;
+  }
+  .profileImg{
+    /* min-height: 100%; */
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 30px; */
   }
 }
 
 .profileImg{
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 45%;
+  max-height: 45%;
   display: flex;
   flex-direction: column;
   text-align: center;
