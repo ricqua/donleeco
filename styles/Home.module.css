@@ -64,7 +64,7 @@
   margin-bottom: 3rem;  
 }
 
-.complaintForm input{
+.complaintForm input, .companitForm textarea {
   padding: 0.4rem;
   border-radius: 0.2rem;
   margin: 0.3rem 0;
@@ -88,3 +88,7 @@
 .published{
   color:hsl(0, 0%, 60%)
 };
+
+.complaintForm textarea {
+    border-radius: 10px;
+}

@@ -1,8 +1,26 @@
+import React, {useRef} from 'react'
+import emailjs from "@emailjs/browser"
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+
 export default function Home() {
+  const form = useRef();
+
+  const submitForm = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_xdasz7g', 'template_dvyhmk8', form.current, 'user_lJcArVfFvxowZmvIrQxgV')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      alert("Form submitted Successfully.  Please see your inbox for confirmation.")
+  };
+
+
   return (
     <div className={styles.container}>
       <Head>
@@ -10,9 +28,6 @@ export default function Home() {
         <meta name="description" content="Don Lee & Co is a bad company.  DO NOT do with with them." />
         <meta name="keywords" content="don lee & Co"/>
         <link rel="icon" href="https://erp.donleecompany.co/_ico/lightblue/apple-touch-icon.png" />
-
-
-        
       </Head>
 
       <main className={styles.main}>
@@ -59,13 +74,13 @@ export default function Home() {
         <p>Don Lee & Co have published my paystubs for the past 5 months on the interal ERP system but no payment has been made.  Don, you know how much you own me.  Pay me...  It&apos;s actually very simple.</p>
         <p>P.S.  Oh, and Don, consider this my resignation notice.</p>
 
-        <form onSubmit={submitForm} className={styles.complaintForm}>
+        <form ref={form} onSubmit={submitForm} className={styles.complaintForm}>
           <h2>Submit a complaint</h2>
           <p>Have you had issues with Don Lee & Co?  Submit your complaint here.  All messages will be treated as annonymous.</p>
-          <input type="text" placeholder="Name (Optional)" />
-          <input type="email" placeholder="Email"/>
-          <input type="phone" placeholder="Phone"/>
-          <input type="text" placeholder="Message"/>
+          <input type="text" name="name" placeholder="Name" />
+          <input type="email" name="email" placeholder="Email"/>
+          <input type="phone" name="phone" placeholder="Phone"/>
+          <textarea type="text" name="message" placeholder="Message" rows="10"/>
           <button type="submit" >Submit</button>
         </form>
 
@@ -82,7 +97,3 @@ export default function Home() {
 }
 
 
-const submitForm  = (e) => {
-  e.preventDefault();
-  alert("form submitted")
-}
