@@ -31,7 +31,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Don Lee & Co is a bad company</h1>
+        <h1>Don Lee & Co 
+          <u> is a bad company</u>
+           </h1>
         
         <label className={styles.warningLabel}>This website will be taken down as soon as Don Lee pays teachers for thier work.</label>
         <p className={styles.published}>Published: 14 February 2022</p>
